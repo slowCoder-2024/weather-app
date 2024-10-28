@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.appContainer{
+  background:linear-gradient(to right,#02AABD,#00CDAC);
+  width:380px;
+  padding:20px;
+  border-radius:6px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  /* background-color:black; */
+}
+.searchBoxContainer{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid rgb(117, 219, 172);
+  background-color:white;
+  border-radius: 8px;
+}
+.searchInput{
+  flex:1;
+  outline:none;
+  padding:15px;
+  border:none;
+  border-radius:8px;
+}
+.searchIcon{
+  height:20px;
+  padding:0 8px;
+}
+.cityWaeatherInfo{
+  padding:20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap:15px;
+  color: white;
+}
+.cityWaeatherInfo img{
+  height: 130px;
+  width:130px;
+}
+.wind,.humidity,.cityWaeatherInfo span{
+  font-weight: 500;
+  color:WHITE;
+}
+.cityWaeatherInfo .cityName{
+  font-size:50px;
+  color:rgb(228, 228, 21);
+}
+.coordinates{
+  display: flex;
+  justify-content: space-between;
+}
+.coordinates .lat,.coordinates .long{
+  display: flex;
+  /* background-color: red; */
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+  font-weight: 500;
+  color: white;
+}
+.windHumidity img{ 
+     height:90px;
+}
+.windHumidity{
+  display: flex;
+  justify-content: space-between;
+  padding:15px 0;
+}
+.wind,.humidity{
+  display: flex;
+  /* background-color: red; */
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+.weatherDetailsContainer{
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.cityNotFound{
+  color:red;
+  padding:10px;
+}
