@@ -94,9 +94,8 @@
   padding:10px;
 }
 /* responsive class */
-@media only screen and (max-width<=700px){
+@media only screen and (max-width:570px){
   .appContainer{
-    /* width:80%; */
-    display:none;
+    width:80%;
   }
 }
